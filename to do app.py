@@ -3,7 +3,7 @@ import sys
 
 # Opening and reading the file
 
-f = open('events.txt','r',encoding="utf-8")
+f = open('tasks.txt','r',encoding="utf-8")
 read = f.readlines()
 f.close()
 task_list = []
